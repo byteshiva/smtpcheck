@@ -1,4 +1,27 @@
 {
+        "custom": {
+                "host": "smtp.gmail.com",
+                "port": 25,
+                "ignoreTLS": true,
+                "debug": true,
+                "logger": true,
+                "secure": false,
+                "auth": {
+                        "user": "help@example.com",
+                        "pass": "password"
+                }
+        },
+        "validunsecure": {
+                "host": "smtp.gmail.com",
+                "port": 25,
+                "debug": true,
+                "logger": true,
+                "secure": false,
+                "auth": {
+                        "user": "help@example.com",
+                        "pass": "password"
+                }
+        },
         "validjson": {
                 "host": "smtp.gmail.com",
                 "port": 465,
