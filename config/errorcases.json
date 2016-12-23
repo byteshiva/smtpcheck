@@ -1,0 +1,36 @@
+{
+        "invalidserver": {
+                "host": "smtp.gmailjunk.com",
+                "port": 465,
+                "secure": true,
+                "auth": {
+                        "user": "help@example.com",
+                        "pass": "password"
+                }
+        },
+        "invaliduser": {
+                "host": "smtp.gmail.com",
+                "port": 465,
+                "secure": true,
+                "auth": {
+                        "user": "help@examplecom",
+                        "pass": "password"
+                }
+        },
+        "invalidpass": {
+                "host": "smtp.gmail.com",
+                "port": 465,
+                "secure": true,
+                "auth": {
+                        "user": "help@example.com",
+                        "pass": "password"
+                }
+        },
+        "emailcontent": {
+                "from": ["Support <help@example.com>"],
+                "to": ["help@example.com"],
+                "subject": [" - do not delete this email"],
+                "text": ["DO NOT DELETE or REPLY TO THIS EMAIL"],
+                "html": ["<b><p> DO NOT DELETE or REPLY TO THIS EMAIL  </p> <p> Regards </p> <p> Test </p></b>"]
+        }
+}
