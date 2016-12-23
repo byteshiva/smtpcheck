@@ -11,7 +11,7 @@
                         "pass": "password"
                 }
         },
-        "validunsecure": {
+        "unsecure": {
                 "host": "smtp.gmail.com",
                 "port": 25,
                 "debug": true,
@@ -22,36 +22,11 @@
                         "pass": "password"
                 }
         },
-        "validjson": {
+        "secure": {
                 "host": "smtp.gmail.com",
                 "port": 465,
-                "secure": true,
-                "auth": {
-                        "user": "help@example.com",
-                        "pass": "password"
-                }
-        },
-        "invalidserver": {
-                "host": "smtp.gmailjunk.com",
-                "port": 465,
-                "secure": true,
-                "auth": {
-                        "user": "help@example.com",
-                        "pass": "password"
-                }
-        },
-        "invaliduser": {
-                "host": "smtp.gmail.com",
-                "port": 465,
-                "secure": true,
-                "auth": {
-                        "user": "help@examplecom",
-                        "pass": "password"
-                }
-        },
-        "invalidpass": {
-                "host": "smtp.gmail.com",
-                "port": 465,
+                "debug": true,
+                "logger": true,
                 "secure": true,
                 "auth": {
                         "user": "help@example.com",

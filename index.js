@@ -21,7 +21,7 @@ var nodemailer = require('nodemailer'),
     _html = email.html;
 
     // create reusable transporter object using the default SMTP transport
-    transporter = nodemailer.createTransport(smtpConfig.validjson);
+    transporter = nodemailer.createTransport(smtpConfig.secure);
 
     // setup e-mail data
     mailOptions = {
