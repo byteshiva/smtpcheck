@@ -11,6 +11,19 @@
                         "pass": "password"
                 }
         },
+        "unsecure-ntlm": {
+                "host": "smtp.gmail.com",
+                "port": 25,
+                "debug": true,
+                "logger": true,
+                "ignoreTLS": true,
+                "secure": false,
+                "authMethod": "NTLM",
+                "auth": {
+                        "user": "help@example.com",
+                        "pass": "password"
+                }
+        },
         "unsecure": {
                 "host": "smtp.gmail.com",
                 "port": 25,
